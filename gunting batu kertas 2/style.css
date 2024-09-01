@@ -1,0 +1,12 @@
+.content{
+    width: 60%;
+    display: flex;
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.player .button{
+    margin-top: 10px;
+}

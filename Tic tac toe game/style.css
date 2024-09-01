@@ -1,0 +1,21 @@
+.cell{
+    border: 2px solid black;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+    font-size:50px ;
+}
+#gamecontainer{
+    text-align: center;
+}
+.cellcontainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+.winning-cell {
+    text-decoration: line-through;
+    text-decoration-color:black ;
+}

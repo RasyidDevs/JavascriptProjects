@@ -1,0 +1,52 @@
+#inputs {
+  display: flex;
+}
+#inputs input {
+  padding: 0.6rem;
+  border-radius: 10px 0 0 10px;
+  border: 0.5px solid black;
+}
+#inputs #button {
+  background-color: black;
+  color: white;
+  border-radius: 0 10px 10px 0;
+  border: none;
+  padding-inline: 1rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background-color: beige;
+}
+#judul {
+  display: flex;
+  justify-content: center;
+}
+.text {
+  background-color: #f1f1f1;
+}
+.text1 {
+  border-bottom: 1.5px solid black;
+  display: flex !important;
+  align-items: center !important;
+}
+.form-group {
+  display: flex;
+  width: 50vw;
+}
+.text1 .remove {
+  float: right;
+}
+#exampleCheck1 {
+  border-radius: 50% !important ;
+}
+.clear {
+  background-color: red;
+  border-radius: 15px;
+  color: white;
+  margin-left: 20px;
+  padding: 15px;
+}

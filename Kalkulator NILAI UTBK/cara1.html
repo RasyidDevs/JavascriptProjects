@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HITUNG NILAI UTBK</title>
+</head>
+<link rel="stylesheet" href="cara1.css">
+<body>
+    <div class="content">
+        <h4>Cara 1: Dijumlahkan semua lalu dibagi 7</h4>
+        <label for="pu" >Penalaran Umum</label>
+        <input type="text" id="pu" placeholder="Masukan Nilai">
+        <label for="kbm" >Kemampuan memahami Membaca dan Menulis </label>
+        <input type="text" id="kbm" placeholder="Masukan Nilai">
+        <label for="ppu" >Pengetahuan dan Pemahaman Umum</label>
+        <input type="text" id="ppu" placeholder="Masukan Nilai">
+        <label for="pk" >Pengetahuan Kuantitatif</label>
+        <input type="text" id="pk" placeholder="Masukan Nilai">
+        <label for="lbi" >Literasi Bahasa Indonesia</label>
+        <input type="text" id="lbi" placeholder="Masukan Nilai">
+        <label for="lbe" >Literasi Bahasa Inggris</label>
+        <input type="text" id="lbe" placeholder="Masukan Nilai">
+        <label for="pm" >Penalaran Matematika</label>
+        <input type="text" id="pm" placeholder="Masukan Nilai">
+        <button class="button" onclick="hitung()" type="submit"> Hitung</button>
+        <div class="nilai">
+            <h5>Hasil: </h5>
+            <div class="result"></div>
+        </div>
+        <p>Gunakan titik (.) sebagai bilangan desimal</p>
+        <a href="cara2.html">Cara 2:</a>
+    </div>
+    <script src="cara1.js"></script>
+</body>
+</html>

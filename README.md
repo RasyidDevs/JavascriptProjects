@@ -1,4 +1,4 @@
-<h1 align="center">Website Project #1</h1>
+<h1 align="center">Javascrit Projects</h1>
 <h1 align="center">
  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=500&color=0BF71D&center=true&width=435&lines=This+is+My+Javascript+Projects" alt="Typing SVG" /></a>
 </h1>
